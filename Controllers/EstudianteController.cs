@@ -208,10 +208,10 @@ namespace WebApplication1.Controllers
                         // encabezado pedido
                         cmd.Parameters.Add("@bandera", SqlDbType.Int).Value = 5;
                         cmd.Parameters.Add("@id", SqlDbType.Int).Value = 0;
-                        cmd.Parameters.Add("@codigo", SqlDbType.VarChar).Value = 0;
-                        cmd.Parameters.Add("@nombre", SqlDbType.VarChar).Value = 0;
-                        cmd.Parameters.Add("@apllidos", SqlDbType.VarChar).Value = 0;
-                        cmd.Parameters.Add("@fechaNacimiento", SqlDbType.VarChar).Value = 0;
+                        cmd.Parameters.Add("@codigo", SqlDbType.VarChar).Value = "";
+                        cmd.Parameters.Add("@nombre", SqlDbType.VarChar).Value = "";
+                        cmd.Parameters.Add("@apllidos", SqlDbType.VarChar).Value = "";
+                        cmd.Parameters.Add("@fechaNacimiento", SqlDbType.VarChar).Value = "";
                         cmd.Parameters.Add("@edad", SqlDbType.Int).Value = 0;
                         cmd.Parameters.Add("@correo", SqlDbType.VarChar).Value = 0;
                         cmd.Parameters.Add("@usercreate", SqlDbType.Int).Value = 0;
