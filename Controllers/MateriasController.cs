@@ -83,7 +83,7 @@ namespace WebApplication1.Controllers
                           new SqlParameter("@codigo", "0"),
                           new SqlParameter("@materia", "0"),
                         new SqlParameter("@instructor", "0"),
-                        new SqlParameter("@@horario", "0"),
+                        new SqlParameter("@horario", "0"),
                         new SqlParameter("@ubicacion", "0"),
                         new SqlParameter("@usercreate", "0"),
                         new SqlParameter("@userupdate", "0"))
