@@ -126,7 +126,7 @@ namespace WebApplication1.Controllers
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
-                        // encabezado pedido
+                        
                         cmd.Parameters.Add("@bandera", SqlDbType.Int).Value = 3;
                         cmd.Parameters.Add("@codestudiante", SqlDbType.VarChar).Value = materias.id;
                         cmd.Parameters.Add("@id", SqlDbType.Int).Value = materias.codigo;
